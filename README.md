@@ -1,5 +1,7 @@
 # Python Labs :heart: :rocket:
 
+[![Build Status](https://travis-ci.org/guidiego/python-lab.svg?branch=master)](https://travis-ci.org/guidiego/python-lab)   
+
 A simple repo with my python studies :)
 
 - Data Structure [[folder](https://github.com/guidiego/python-lab/tree/master/data_structure)]
