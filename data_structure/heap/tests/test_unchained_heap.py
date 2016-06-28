@@ -12,6 +12,10 @@ def test_heap_push():
     heap.push(pushed_value)
     assert heap.items[0] == pushed_value
 
+def test_heap_pop_without_items():
+    heap = Heap()
+    heap.pop()
+    
 def test_heap_pop():
     heap = Heap()
     pushed_value = 42

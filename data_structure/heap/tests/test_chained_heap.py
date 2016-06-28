@@ -12,6 +12,10 @@ def test_chained_heap_push():
     heap.push(pushed_value)
     assert heap.head.value == pushed_value
 
+def test_chained_heap_pop_without_items():
+    heap = ChainedHeap()
+    heap.pop()
+    
 def test_chained_heap_pop():
     heap = ChainedHeap()
     pushed_value = 42

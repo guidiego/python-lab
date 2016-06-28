@@ -9,7 +9,8 @@ class ChainedHeap(object):
         self.head = newItem
         
     def pop(self):
-        self.head = self.head.previous
+        if (self.head):
+            self.head = self.head.previous
     
 class HeapItem(object):
     def __init__(self, value, previous):
