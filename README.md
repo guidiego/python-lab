@@ -1,6 +1,7 @@
 # Python Labs :heart: :rocket:
 
-[![Build Status](https://travis-ci.org/guidiego/python-lab.svg?branch=master)](https://travis-ci.org/guidiego/python-lab)   
+[![Python Version](https://img.shields.io/badge/python-3.5-blue.svg?style=flat-square)](https://img.shields.io/badge/python-3.5-blue.svg?style=flat-square)
+[![Build Status](https://travis-ci.org/guidiego/python-lab.svg?branch=master)](https://travis-ci.org/guidiego/python-lab) [![Code Health](https://landscape.io/github/guidiego/python-lab/master/landscape.svg?style=flat)](https://landscape.io/github/guidiego/python-lab/master) [![Coverage Status](https://coveralls.io/repos/github/guidiego/python-lab/badge.svg?branch=master)](https://coveralls.io/github/guidiego/python-lab?branch=master)  
 
 A simple repo with my python studies :)
 
