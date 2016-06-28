@@ -8,5 +8,5 @@ class Heap(object):
         self.items.append(item)
     
     def pop(self):
-        if (self.items):
+        if self.items :
             self.items.pop()

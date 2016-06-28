@@ -8,14 +8,15 @@ class ChainedQueue(object):
     def insert(self, value):
         item = QueueItem(value, None)
         
-        if (self.head == None):
-            self.head = self.tail = item
+        if not self.head:
+            self.head = item
+            self.tail = item
         else:
             self.tail.next = item
             self.tail = item
     
     def pop(self):
-        if (self.head):
+        if self.head :
             self.head = self.head.next
         
 class QueueItem(object):

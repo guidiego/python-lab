@@ -5,11 +5,11 @@ class ChainedHeap(object):
         self.head = None
     
     def push(self, value):
-        newItem = HeapItem(value, self.head);
-        self.head = newItem
+        item = HeapItem(value, self.head)
+        self.head = item
         
     def pop(self):
-        if (self.head):
+        if self.head :
             self.head = self.head.previous
     
 class HeapItem(object):
